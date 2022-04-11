@@ -20,7 +20,7 @@ class KnownValues(unittest.TestCase):
             kelvin_compare = i[2]
             print("Testing", str(celsius_val) + "c,", str(kelvin_compare) + "k")
             kelvin = conversions.convertCelsiusToKelvin(celsius_val)
-            self.assertEqual(kelvin_compare, kelvin, "Fail: Values do not match")
+            self.assertEqual(kelvin_compare, kelvin, "Sorry: values do not match")
 
     def test_convertCelsiusToFahrenheit(self):
         print("Tests Celsius to Fahrenheit conversion:")
@@ -29,7 +29,7 @@ class KnownValues(unittest.TestCase):
             fahrenheit_compare = i[1]
             print("Testing", str(celsius_val) + "c,", str(fahrenheit_compare) + "f")
             fahrenheit = conversions.convertCelsiusToFahrenheit(celsius_val)
-            self.assertEqual(fahrenheit_compare, fahrenheit, "Fail: Values do not match")
+            self.assertEqual(fahrenheit_compare, fahrenheit, "Sorry: values do not match")
 
         # fahrenheit
 
