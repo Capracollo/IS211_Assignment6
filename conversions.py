@@ -6,6 +6,7 @@ def convertCelsiusToKelvin(celsius):
 
 def convertCelsiusToFahrenheit(celsius):
     fahrenheit = round((celsius * (9/5)) + 32, 2)
+    return fahrenheit
 
 
 # Fahrenheit
